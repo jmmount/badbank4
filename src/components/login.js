@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import Card from './components/context.js';
+
 function Login() {
     const [show, setShow] = React.useState(true);
     const [status, setStatus] = React.useState("");
@@ -105,7 +108,6 @@ function Login() {
     );
   }
   
-  
-  
+  export default Login;
   
   
